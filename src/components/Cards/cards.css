@@ -1,0 +1,45 @@
+.card-img{
+    height: 200px;
+    width: auto;
+}
+
+.cardsty{
+    padding-top: 50px;
+    padding-bottom: 50px;
+    padding-left: 5px;
+    padding-right: 5px;
+}
+
+.cardsty-card:hover {
+    box-shadow:  0 4px 8px 0 rgba(214, 0, 0, 0.2), 0 6px 20px 0 rgba(214, 0, 0, 0.2);
+}
+
+.buttonsty {
+    width: 100%;
+    background-color: rgb(214, 0, 0);
+    border: none;
+    padding: 10px;
+    display: block;
+}
+
+.buttonsty:hover , .buttonsty:focus  {
+    background-color: rgb(255, 0, 0);
+    border: none;
+}
+
+.cardslist{
+    display: flex;
+}
+
+@media screen and (max-width: 990px) {
+    .cardslist{
+        display:initial;
+    }
+    .cardsty {
+        padding-top: 15px;
+        padding-bottom: inherit;
+        padding-left: inherit;
+        padding-right: inherit;
+        display: inline-block;
+    }
+  }

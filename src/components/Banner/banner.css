@@ -1,0 +1,50 @@
+.imgtext {
+    background-color:rgba(241, 241, 241, 0.7);
+    margin: 90px;
+    color: black;
+    border-radius: 20px;
+}
+
+h1 {
+    color: rgb(214, 0, 0);
+}
+
+.button-ju {
+    background-color: rgba(241, 241, 241, 0.1);
+    border: 2px solid red;
+    border-radius: 20px;
+    padding-left: 50px;
+    padding-right: 50px;
+    color: rgb(214, 0, 0);
+    font-weight: bold;
+}
+
+.button-ju:hover {
+    background-color: rgba(241, 241, 241, 0.8);
+    color: red;
+}
+
+.under {
+    padding-top: 50px;
+}
+.cardimage{
+    height: 500px;
+    width: auto;
+}
+
+@media only screen and (max-width: 990px) {
+    .imgtext{
+        height: fit-content;
+        width: fit-content;
+        margin:inherit;
+    }
+
+    .under {
+        padding-bottom: 500px;
+    }
+
+    .cardimage {
+        display: none;
+    }
+
+  }

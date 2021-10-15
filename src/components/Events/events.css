@@ -1,0 +1,52 @@
+.date{
+    color: rgb(214, 0, 0);
+    font-weight: bold;
+    font-size: 38px;
+}
+
+.month {
+    color: grey;
+}
+
+.col-3 {
+    border-right: 2px solid grey;
+}
+
+.text-left {
+    text-align: left;
+}
+
+.center {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+  }
+
+.responsiveimg {
+    height: 350px;
+    width: auto;
+}
+
+.event-bigimg{
+    height: auto;
+    width: 100%;
+}
+
+.eventimg{
+    background-color:rgba(241, 241, 241, 0.8);
+    margin: 20px;
+    margin-top: 30%;
+    color: black;
+    height: 120px;
+    width: auto;
+}
+
+
+@media only screen and (max-width: 990px) {
+    .eventimg{
+        position: inherit;
+        margin-top: inherit;
+    }
+
+}

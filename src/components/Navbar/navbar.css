@@ -1,0 +1,31 @@
+.nav-back{
+    background-color: black !important;
+}
+
+.nav-link{
+
+    color: #dfdfdf !important;
+  }
+
+.nav-link:hover {
+    color: rgb(214, 0, 0) !important;
+    border-bottom: 1px solid rgb(214, 0, 0);
+}
+
+
+.button{
+    background-color: rgb(214, 0, 0);
+    padding-right: 30px;
+    padding-left: 30px;
+    border-radius: 25px;
+    color : #dfdfdf;
+    border : none;
+    margin-right: 15px;
+}
+
+.button:hover {
+    background-color: rgb(224, 36, 36);
+    color: white;
+}
+
+
