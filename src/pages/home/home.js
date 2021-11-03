@@ -58,23 +58,25 @@ const Home = () => {
                 <div className="d-flex flex-column flex-lg-row justify-content-center panel">
                     <Cards cardData={cardData} />    
                 </div>
-                <div>
-                    <h1 style={heading1}>JOIN US</h1>
-                    <hr style={HR} />
-                    <Who />
-                </div>
+                
                 <div>
                     <h1 style={heading1}>EVENTS</h1>
                     <hr style={HR} />
                     <Events />
                 </div>
+                
+                <div>
+                    <h1 style={heading1}>ABOUT US</h1>
+                    <hr style={HR} />
+                    <Who />
+                </div>
+                <div>
+                    <Banner />
+                </div>
                 <div>
                     <h1 style={heading1}>SPONSORED BY</h1>
                     <hr style={HR} />
                     <Owl />
-                </div>
-                <div>
-                    <Banner />
                 </div>
             </div>
         </div>
