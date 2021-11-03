@@ -2,13 +2,16 @@ import "./App.css";
 import Home from './pages/home/home';
 import Navbar from "./components/Navbar/navbar";
 import Footer from "./components/Footer/footer";
+import Main from "./main";
 
 function App() {
   return (
     <div className="App">
       <Navbar />
-      <Home />
-      <div>
+      {/* <Home />
+       */}
+      <Main />
+      {/* <div>
         <a href='#'>
           <button className='backToTop'>
           <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-arrow-up-circle" viewBox="0 0 16 16">
@@ -16,7 +19,7 @@ function App() {
           </svg>
           </button>
         </a>
-      </div>
+      </div> */}
       <footer>
         <Footer />
       </footer>
