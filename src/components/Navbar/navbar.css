@@ -25,7 +25,15 @@
 
 .button:hover {
     background-color: rgb(224, 36, 36);
-    color: white;
+    color: white !important;
 }
 
+.form-Btn{
+  width: 100%;
+  margin-top: 10px;
 
+}
+
+.formSty {
+    min-width: 250px;
+}

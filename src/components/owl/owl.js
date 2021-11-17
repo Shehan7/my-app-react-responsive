@@ -4,7 +4,10 @@ import './owl.css';
 import OwlCarousel from 'react-owl-carousel';
 import 'owl.carousel/dist/assets/owl.carousel.css';
 import 'owl.carousel/dist/assets/owl.theme.default.css';
-import IMG1 from '../../logo.png';
+import L1 from '../../images/l1.png';
+import L2 from '../../images/l2.png';
+import L3 from '../../images/l3.png';
+import L4 from '../../images/l4.jpg';
 
 const responsive = {
     0: {
@@ -37,16 +40,19 @@ const owl = () => {
             >
             
             <div className='item'>
-                <img alt="2" src="https://api.makeadifference.lk/uploads/2021-08-11T19:00:05.270Z5-scaled.jpeg" />
+                <img alt="2" src={L1} />
             </div>
             <div className='item'>
-                <img alt="3" src="https://api.makeadifference.lk/uploads/2021-08-11T19:00:57.995Z10.jpeg" />
+                <img alt="3" src={L2} />
             </div>
             <div className='item'>
-                <img alt="4" src="https://api.makeadifference.lk/uploads/2021-08-22T04:02:44.554ZPNG+for+word+processing,+presentations,+web,+and+digital+uses..png" />
+                <img alt="4" src={L3} />
             </div>
             <div className='item'>
-                <img alt="5" src="https://api.makeadifference.lk/uploads/2021-08-22T04:03:06.478ZWhatsApp%20Image%202021-08-20%20at%2021.50.36.jpeg" />
+                <img alt="5" src="https://www.vhv.rs/file/max/13/133098_bird-logo-png.png" />
+            </div>
+            <div className='item'>
+                <img alt="6" src={L4} />
             </div>
             
             

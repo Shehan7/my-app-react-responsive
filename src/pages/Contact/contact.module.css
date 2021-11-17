@@ -1,0 +1,29 @@
+.form{
+    padding-top: 5%;
+    padding-bottom: 5%;
+}
+
+.formBtn {
+    background-color: rgb(214, 0, 0);
+    border: none;
+    margin-left: 37%;
+    padding-right: 10%;
+    padding-left: 10%;
+}
+
+.formBtn:hover , .formBtn:active , .formBtn:visited {
+    background-color: rgb(255, 31, 31);
+}
+
+.headAbout{
+    padding-top: 5%;
+    padding-bottom: 5%;
+    background-image: url('../../images/aboutBack.jpg');
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.headAbout h1{
+    color: white;
+    font-size: 300%;
+}

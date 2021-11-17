@@ -1,16 +1,17 @@
 import React from 'react';
-import './about.css';
+import Style from './about.module.css';
 import Owl from '../../components/owl/owl';
+import Who from '../../components/WAW/who';
 
 const about = () => {
     return (
-        <div className="container">
-            <div className='head-about'>
+        <div >
+            <div className={Style.headAbout}>
                 <h1>ABOUT US</h1>
             </div>
-            <div className='container'>
+            <div className={`container ${Style.mottoAbout}`}>
                 <h2>Our Motto</h2>
-                <p className='motto-about'>
+                <p>
                 Lorem Ipsum is simply dummy text of the printing and typesetting industry. 
                 Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an
                  unknown printer took a galley of type and scrambled it to make a type specimen book. It has
@@ -18,11 +19,16 @@ const about = () => {
                   essentially unchanged.
                 </p>
             </div>
-            <div className='container'>
+            <div>
                 <br />
-                <h3>SPONSORED BY:</h3>
+                <h2>Who Are We</h2>
+                <Who />
             </div>
-            <Owl />
+            <div className='container'>
+                <br /><br /><br /><br />
+                <h2>Our Partners:</h2>
+                <Owl />
+            </div>
         </div>
     )
 }

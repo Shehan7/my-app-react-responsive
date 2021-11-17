@@ -2,7 +2,7 @@ import "./App.css";
 import Home from './pages/home/home';
 import Navbar from "./components/Navbar/navbar";
 import Footer from "./components/Footer/footer";
-import Main from "./main";
+import Routes from './routes'
 
 function App() {
   return (
@@ -10,7 +10,7 @@ function App() {
       <Navbar />
       {/* <Home />
        */}
-      <Main />
+      <Routes />
       {/* <div>
         <a href='#'>
           <button className='backToTop'>
