@@ -1,9 +1,10 @@
 import React from 'react';
 import { Form , Row , Col , Button } from 'react-bootstrap';
+import Styles from '../Contact/contact.module.css';
 
 const signUp = () => {
     return (
-        <div className='container text-left'>
+        <div className='container text-left mt-5 mb-5'>
             <Form>
                 <Row className="mb-3">
                     <Form.Group as={Col} controlId="formGridEmail">
@@ -51,7 +52,7 @@ const signUp = () => {
                     <Form.Check type="checkbox" label="Check me out" />
                 </Form.Group>
 
-                <Button variant="primary" type="submit" style={{textAlign: 'center'}}>
+                <Button variant="primary" type="submit" className={Styles.formBtn}>
                     Submit
                 </Button>
             </Form>

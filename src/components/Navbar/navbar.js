@@ -21,14 +21,14 @@ const navbar = () => {
         <Navbar.Collapse id="responsive-navbar-nav">
         <Nav className="m-auto" >
             <Nav.Link href="#/" >HOME</Nav.Link>
-            <Nav.Link href="#/">EVENTS</Nav.Link>
+            <Nav.Link href="#/events">EVENTS</Nav.Link>
             {/* <NavDropdown title="ABOUT US" id="collasible-nav-dropdown" >
                 <NavDropdown.Item href="#/about" style={dropdown}>About Us</NavDropdown.Item>
                 <NavDropdown.Divider />
                 <NavDropdown.Item href="#action/3.2" style={dropdown} >Ambassdor</NavDropdown.Item>
             </NavDropdown> */}
             
-            <Nav.Link href="#/">GALLERY</Nav.Link>
+            <Nav.Link href="#/gallery">GALLERY</Nav.Link>
             <Nav.Link href="#/about">ABOUT US</Nav.Link>
             <Nav.Link href="#/contact">CONTACT US</Nav.Link>
 
