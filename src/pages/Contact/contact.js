@@ -33,7 +33,7 @@ const contact = () => {
                         <Col>
                             <Form.Control type="email" placeholder="Email" id='email' />
                             <br />
-                            <Form.Control type="file" />
+                            <Form.Control type="file" accept="image/*" />
                             <br />
                             <Form.Control
                             as="textarea"

@@ -2,10 +2,15 @@
 import React from "react";
 import "react-responsive-carousel/lib/styles/carousel.min.css"; // requires a loader
 import { Carousel } from 'react-responsive-carousel';
+import Style from '../About/about.module.css';
 
 class ImageGallaryComponent extends React.Component {
     render() {
         return (
+          <div>
+            <div className={Style.headAbout}>
+                <h1>Gallery</h1>
+            </div>
             <div className="container mt-5 mb-5 ">
                 
                 <Carousel autoPlay interval="2000" transitionTime="800">
@@ -34,6 +39,7 @@ class ImageGallaryComponent extends React.Component {
                         <p className="legend">Gallery Img No.06</p>
                     </div>
                 </Carousel>
+            </div>
             </div>
         )
     };

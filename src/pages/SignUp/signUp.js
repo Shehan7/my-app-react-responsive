@@ -49,7 +49,7 @@ const signUp = () => {
                 </Row>
 
                 <Form.Group className="mb-3" id="formGridCheckbox">
-                    <Form.Check type="checkbox" label="Check me out" />
+                    <Form.Check type="checkbox" label="I agree to sign up with the website" required />
                 </Form.Group>
 
                 <Button variant="primary" type="submit" className={Styles.formBtn}>

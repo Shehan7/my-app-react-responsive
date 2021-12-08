@@ -70,16 +70,16 @@ const footer = () => {
                 <h5 className="text-uppercase font-weight-bold" style={FootHead}>Pages</h5>
                 <hr className="deep-purple accent-2 mb-4 mt-0 d-inline-block mx-auto" style={{width: "60px"}} />
                 <p>
-                <a href="#!">HOME</a>
+                <a href="#/">HOME</a>
                 </p>
                 <p>
-                <a href="#!">ABOUT US</a>
+                <a href="#/about">ABOUT US</a>
                 </p>
                 <p>
-                <a href="#!">EVENTS</a>
+                <a href="#/events">EVENTS</a>
                 </p>
                 <p>
-                <a href="#!">GALLERY</a>
+                <a href="#/gallery">GALLERY</a>
                 </p>
 
 
@@ -94,7 +94,7 @@ const footer = () => {
                     </svg> </button>
                 </form><br />
 
-                <p>This is a text on the footer which means nothing but something which is for a dummy text on the footer of CCC Funding.</p>
+                <p>This is a text on the footer which means nothing but something which is for a dummy text on the footer of this website.</p>
                 
                 <div>
                 <div class="row">
